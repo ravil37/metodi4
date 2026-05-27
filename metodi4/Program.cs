@@ -56,9 +56,9 @@ namespace metodi4
             bool upperOk = HasUpperCase(password);
 
             // Выводим детали
-            Console.WriteLine($"1. Длина пароля (мин. 8 символов): {(lengthOk ? "✓ Выполнено" : "✗ Не выполнено")}");
-            Console.WriteLine($"2. Наличие хотя бы одной цифры: {(digitOk ? "✓ Выполнено" : "✗ Не выполнено")}");
-            Console.WriteLine($"3. Наличие заглавной буквы: {(upperOk ? "✓ Выполнено" : "✗ Не выполнено")}");
+            Console.WriteLine($"1. Длина пароля (мин. 8 символов): {(lengthOk ? " Выполнено" : " Не выполнено")}");
+            Console.WriteLine($"2. Наличие хотя бы одной цифры: {(digitOk ? " Выполнено" : " Не выполнено")}");
+            Console.WriteLine($"3. Наличие заглавной буквы: {(upperOk ? " Выполнено" : " Не выполнено")}");
 
             Console.WriteLine("ОБЩИЙ РЕЗУЛЬТАТ");
 
